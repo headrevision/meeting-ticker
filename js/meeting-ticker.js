@@ -261,32 +261,7 @@
     }
 
     Locale.prototype.currency = function() {
-      switch (this.language) {
-        case "us":
-          return "$";
-        case "gb":
-          return "pound";
-        case 'ca':
-        case 'de':
-        case 'el':
-        case 'es':
-        case 'et':
-        case 'fi':
-        case 'fr':
-        case 'ga':
-        case 'it':
-        case 'lb':
-        case 'mt':
-        case 'nl':
-        case 'pt':
-        case 'sk':
-        case 'sl':
-          return "euro";
-        case 'ja':
-          return "yen";
-        case 'sv':
-          return "Kr";
-      }
+      return "CHF";
     };
 
     return Locale;
