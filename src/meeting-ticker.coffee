@@ -208,6 +208,7 @@ class Locale
         "euro"
       when 'ja' then "yen"
       when 'sv' then "Kr"
+      when 'ch' then 'CHF'
 
 
 console.log( "installing plugin…" )
