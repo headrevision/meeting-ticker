@@ -21,7 +21,7 @@
     from( #F0B600 ),
     to(   #F0B600 ),
     color-stop( 0.25, #F0B600),
-    color-stop( 0.35, #aaa ),
+    color-stop( 0.35, #EDDBAB ),
     color-stop( 0.55, #F0B600 )
   );
 }
