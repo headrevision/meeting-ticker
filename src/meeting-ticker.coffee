@@ -199,17 +199,7 @@ class Locale
       @language = lang[0]
 
   currency: ->
-    switch @language
-      when "us" then "$"
-      when "gb" then "pound"
-      when 'ca', 'de', 'el', 'es', 'et', 'fi', \
-           'fr', 'ga', 'it', 'lb', 'mt', 'nl', \
-           'pt', 'sk', 'sl'
-        "euro"
-      when 'ja' then "yen"
-      when 'sv' then "Kr"
-      when 'ch' then 'CHF'
-
+    "CHF"
 
 console.log( "installing plugin…" )
 $.fn.meetingTicker = (options) ->
