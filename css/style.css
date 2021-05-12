@@ -29,7 +29,7 @@ p {
 
 .notes {
    text-align: left;
-   color: #F0B600;
+   color: #EDDBAB;
    font-size: 95%;
    font-weight: normal;
    width: 40%;
@@ -49,10 +49,10 @@ p {
   -moz-box-shadow:    5px 5px 5px rgba( 0, 0, 0, 0.5 );
 }
 
-#form a { color: #F0B600; }
+#form a { color: #EDDBAB; }
 
 form.setup {
-  background: #F0B600;
+  background: #EDDBAB;
   padding:    1em;
   margin:     2em auto;
   min-width: 14em;
